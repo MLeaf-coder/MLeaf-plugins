@@ -1,6 +1,6 @@
 # cat-acg 🐱
 
-[ en ](./README.md)]
+[ en ](./README.md)
 cat-acg 的插件库，正在不断适配 cat-acg，让 cat-acg 变得更加完美。
 
 ## 插件列表
