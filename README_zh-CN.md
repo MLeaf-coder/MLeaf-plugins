@@ -9,7 +9,7 @@ cat-acg 的插件库，正在不断适配 cat-acg，让 cat-acg 变得更加完�
 | :--------------------------------------------------------------------------- | :------------------------------ | :----------- |
 | [帮助](https://github.com/MLeaf-coder/MLeaf-plugins/tree/main/help)          | 帮助命令已适配图像              | [适配中...]  |
 | [皮皮虾视频解析](https://github.com/MLeaf-coder/MLeaf-plugins/tree/main/ppx) | 皮皮虾视频解析去水印解析        | [适配完成 ✔] |
-| [kfc](https://github.com/MLeaf-coder/MLeaf-plugins/tree/main/kfc)            | 一款娱乐插件生成 kfc 文案加图像 | [适配完成 √] |
+| [kfc](https://github.com/MLeaf-coder/MLeaf-plugins/tree/main/kfc)            | 一款娱乐插件生成 kfc 文案加图像 | [适配完成 ✔] |
 
 ---
 

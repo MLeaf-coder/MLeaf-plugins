@@ -9,7 +9,7 @@ The plugin library for cat-acg is constantly being adapted to make cat-acg even 
 | :---------------------------------------------------------------------------------- | :------------------------------------------- | :--------------- |
 | [Help](https://github.com/MLeaf-coder/MLeaf-plugins/tree/main/help)                 | Help command adapted with images             | [In Progress...] |
 | [Pipixia Video Parsing](https://github.com/MLeaf-coder/MLeaf-plugins/tree/main/ppx) | Pipixia video parsing and watermark removal  | [Completed ✔]    |
-| [kfc](https://github.com/MLeaf-coder/MLeaf-plugins/tree/main/kfc)                   | A fun plugin to generate kfc text and images | [Completed √]    |
+| [kfc](https://github.com/MLeaf-coder/MLeaf-plugins/tree/main/kfc)                   | A fun plugin to generate kfc text and images | [Completed ✔]    |
 
 ---
 
