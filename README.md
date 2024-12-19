@@ -1,4 +1,4 @@
-# cFuyuBot
+# FuyuBot
 
 FuyuBot 的插件库，正在不断适配 FuyuBot，让 FuyuBot 变得更加完美。
 
