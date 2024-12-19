@@ -1,84 +1,31 @@
-# cat-acg 🐱
+# cFuyuBot
 
-[ 中文 ](./README_zh-CN.md)
-The plugin library for cat-acg is constantly being adapted to make cat-acg even more perfect.
+FuyuBot 的插件库，正在不断适配 FuyuBot，让 FuyuBot 变得更加完美。
 
-## Plugin List
+## 插件列表
 
-| Plugin Name                                                                         | Plugin Description                           | Plugin Status    |
-| :---------------------------------------------------------------------------------- | :------------------------------------------- | :--------------- |
-| [Help](https://github.com/MLeaf-coder/MLeaf-plugins/tree/main/help)                 | Help command adapted with images             | [In Progress...] |
-| [Pipixia Video Parsing](https://github.com/MLeaf-coder/MLeaf-plugins/tree/main/ppx) | Pipixia video parsing and watermark removal  | [Completed ✔]    |
-| [kfc](https://github.com/MLeaf-coder/MLeaf-plugins/tree/main/kfc)                   | A fun plugin to generate kfc text and images | [Completed ✔]    |
+| 插件名称                                                                     | 插件描述                        | 插件状态     |
+| :--------------------------------------------------------------------------- | :------------------------------ | :----------- |
+| [帮助](https://github.com/MLeaf-coder/MLeaf-plugins/tree/main/help)          | 帮助命令已适配图像              | [适配中...]  |
+| [皮皮虾视频解析](https://github.com/MLeaf-coder/MLeaf-plugins/tree/main/ppx) | 皮皮虾视频解析去水印解析        | [适配完成 ✔] |
+| [kfc](https://github.com/MLeaf-coder/MLeaf-plugins/tree/main/kfc)            | 一款娱乐插件生成 kfc 文案加图像 | [适配完成 ✔] |
 
 ---
 
-## Plugin Development Standards
+由于 FuyuBot 的插件调整，目前只需要拥有 FuyuBot 本体后启动 bot 发送
 
-### **Ensure Default Export**
-
-Plugins must default export asynchronously as shown in the example below:
-
-```JavaScript
-export default async (client) => {
-  // Plugin code
-};
+```bash
+/plugins add 插件库连接
 ```
 
-### Reply Command Example
+即可快速使用本项目插件
 
-```JavaScript
-// Import the logger module
-import log from "#logger";
-// Import the event module for receiving messages
-import { NewMessage } from "telegram/events/index.js";
+示例:
 
-export default async (client) => {
-  client.addEventHandler(async (event) => {
-    // Wrap functions with try to prevent crashes on errors
-    try {
-      // Assign the received message to `message`
-      const message = event.message;
-      // Check if the message starts with `/`
-      const command = message.message.split(" ")[0];
-      // Get bot's information
-      const me = await client.getMe();
-      // Filter messages directed at other bots, only respond to its own
-      const [cmd, username] = command.split("@");
-      if (username && username.toLowerCase() !== me.username.toLowerCase()) {
-        return;
-      }
-      // Handle `/start` message
-      if (cmd === "/start") {
-        await client.sendMessage(message.chat.id, {
-          // Reply with a message
-          message: "halo world",
-        });
-      }
-    } catch (error) {
-      // Log the error
-      log.error(`[1] Error processing plugin message: ${error}`);
-    }
-  }, new NewMessage());
-};
+```bash
+/plugins add https://github.com/MLeaf-coder/MLeaf-plugins.git
 ```
 
-### Plugin Usage
-
-Simply clone this project directly into the `plugins` directory of cat-acg.
-
-The directory structure should be as follows:
-
-```
-plugins/
-  plugin-repo/
-    index.js (entry listener file)
-```
-
-### Notice
-
-This repository is for personal learning purposes only. It is strictly for educational and exchange purposes. Do not use it for commercial purposes, as consequences are at your own risk.
-
-If you have any good suggestions or gameplay, welcome to raise issues
+如果你有什么好的建议或者玩法欢迎提 issue
 
 ![:name](https://count.getloli.com/@MLeaf-plugins?name=MLeaf-plugins&theme=rule34&padding=7&offset=0&align=center&scale=1&pixelated=1&darkmode=auto)
