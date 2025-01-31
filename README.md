@@ -28,10 +28,10 @@ npm install @google/generative-ai
 # Gemini 计划
 
 - [✔] 适配对话
-- [] 适配情绪
-- [] 适配图片
-- [] 适配记忆
-- [] 适配角色
+- [❌] 适配情绪
+- [❌] 适配图片
+- [❌] 适配记忆
+- [❌] 适配角色
 
 由于 [FuyuBot](https://github.com/CatMoeCircle/FuyuBot) 的插件调整，目前只需要拥有 FuyuBot 本体后启动 bot 发送
 
