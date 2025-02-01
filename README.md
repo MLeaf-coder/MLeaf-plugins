@@ -20,6 +20,8 @@ FuyuBot 的插件库，正在不断适配 FuyuBot，让 FuyuBot 变得更加完�
 
 ```bash
 npm install @google/generative-ai
+
+npm install openai
 ```
 
 进行安装依赖，由于 FuyuBot 目前暂未适配目录包识别导致无法直接在目录中使用对应包，所以需要手动安装依赖。其次你需要进入/Gemini/api/api.js 中配置你的 apikey 和对应模型
