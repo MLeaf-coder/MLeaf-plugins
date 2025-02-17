@@ -14,7 +14,7 @@ FuyuBot 的插件库，正在不断适配 FuyuBot，让 FuyuBot 变得更加完�
 
 ---
 
-进行安装依赖，由于个人技术问题，目前存档了很多插件如果有需要可以访问[链接](https://wwer.lanzouw.com/iDwDa2o449ze)密码是:grth
+由于个人技术问题，目前存档了很多插件如果有需要可以访问[链接](https://wwer.lanzouw.com/iDwDa2o449ze)密码是:grth
 进行存档下载，在这里就不展示文件了会导致目录混乱
 
 后续会接着带来更多的功能插件
