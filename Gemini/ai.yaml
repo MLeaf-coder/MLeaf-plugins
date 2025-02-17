@@ -1,7 +1,0 @@
-Qwen: 你的API KEY
-Gemini: 你的API KEY
-state:
-  Qwen: false
-  Gemini: true
-usage:
-  Qwen: 0
