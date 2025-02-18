@@ -6,18 +6,9 @@ import log from "#logger";
 export default async (client, event) => {
   try {
     const message = event.message;
-    // 判断消息是否以/开头
-    const command = message.message.split(" ")[0];
-    // 获取机器人的信息
-    const me = await client.getMe();
+    const text = message.message;
 
-    const [cmd, username] = command.split("@");
-    if (username && username.toLowerCase() !== me.username.toLowerCase()) {
-      return;
-    }
-    // 判断是否为 /kfc 命令
-    if (cmd === "/kfc") {
-      // 调用 API 获取数据
+    if (text.startsWith("/kfc")) {
       try {
         const response = await fetch("https://api.52vmy.cn/api/wl/yan/kfc");
         const data = await response.json();
