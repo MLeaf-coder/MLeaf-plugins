@@ -9,8 +9,10 @@ FuyuBot 的插件库，正在不断适配 FuyuBot，让 FuyuBot 变得更加完�
 | [帮助](https://github.com/MLeaf-coder/MLeaf-plugins/tree/main/help)           | 帮助命令已适配图像(存档状态)                                | [取消适配 ❌] |
 | [皮皮虾视频解析](https://github.com/MLeaf-coder/MLeaf-plugins/tree/main/ppx)  | 皮皮虾视频解析去水印解析                                    | [适配完成 ✔]  |
 | [kfc](https://github.com/MLeaf-coder/MLeaf-plugins/tree/main/kfc)             | 一款娱乐插件生成 kfc 文案加图像                             | [适配完成 ✔]  |
+| [epic](https://github.com/MLeaf-coder/MLeaf-plugins/tree/main/epic)           | 一款查询 epic 免费游戏的插件，并生成图像                    | [适配完成 ✔]  |
 | [Gemini](https://github.com/MLeaf-coder/MLeaf-plugins/tree/main/Gemini)       | 对接 Gemini 使其机器人可以进行闲聊(存档状态)                | [取消适配 ❌] |
 | [魔塔模型服务](https://github.com/MLeaf-coder/MLeaf-plugins/tree/main/Gemini) | 对接魔塔社区的模型服务输入自己的 SDK 令牌即可使用(存档状态) | [取消适配 ❌] |
+| [youtube](https://github.com/MLeaf-coder/MLeaf-plugins/tree/main/youtube)     | 暂时可用                                                    | [开发中 ✔]    |
 
 ---
 
@@ -18,12 +20,17 @@ FuyuBot 的插件库，正在不断适配 FuyuBot，让 FuyuBot 变得更加完�
 进行存档下载，在这里就不展示文件了会导致目录混乱
 
 后续会接着带来更多的功能插件
-更具FuyuBot的项目调整，目前插件的图像部分已经全部失效，正在适配中...
 
 由于 [FuyuBot](https://github.com/CatMoeCircle/FuyuBot) 的插件调整，目前只需要拥有 FuyuBot 本体后启动 bot 发送
 
 ```bash
 /plugins add 插件库连接
+```
+
+目前如果想要功能正常你需要到目录下使用,进行依赖安装
+
+```bash
+npm install
 ```
 
 即可快速使用本项目插件
